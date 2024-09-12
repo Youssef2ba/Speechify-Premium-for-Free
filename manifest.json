@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Edge TTS Extension",
+  "version": "1.0",
+  "description": "A simple text-to-speech extension for Microsoft Edge.",
+  "permissions": ["tts", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "speak-selected-text": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Speak selected text"
+    },
+    "increase-speed": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Increase speaking rate"
+    },
+    "decrease-speed": {
+      "suggested_key": {
+        "default": "Alt+D"
+      },
+      "description": "Decrease speaking rate"
+    },
+    "reset-speed": {
+      "suggested_key": {
+        "default": "Alt+R"
+      },
+      "description": "Reset speaking rate to 2x"
+    }
+  }
+}
