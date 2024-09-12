@@ -42,7 +42,9 @@ Follow these steps to download and set up the text-to-speech extension:
 
 - To change the voice used by the text-to-speech function, open the `background.js` file in a text editor.
 - Locate the line that specifies the `voiceName` in the `chrome.tts.speak` function.
-- chrome.tts.speak(results[0].result, {'voiceName': 'Microsoft Susan - English (United Kingdom)', 'rate': speakingRate});
+
+#### chrome.tts.speak(results[0].result, {'voiceName': 'Microsoft Susan - English (United Kingdom)', 'rate': speakingRate});
+
 - Replace the current voice name with the desired voice name from the extensive list of available voices for various languages.
 
 ## Features
