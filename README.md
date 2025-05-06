@@ -2,7 +2,7 @@
 
 ## Description
 
-Basically, a broke student who can't read finds out about Speechify, but the broke student is limited to the free version, which has a max speaking rate of 1.5x. Too slow, so I made my own.
+Basically, student who hates reading finds out about Speechify, but student is limited to the free version with max speaking rate 1.5x. Too slow, so I made my own.
 
 ## Installation
 
